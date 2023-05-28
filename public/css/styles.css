@@ -1,0 +1,40 @@
+.nav-color{
+  background-color:  #336633 !important;
+}
+.navbar-brand, .nav-link{
+color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+  color: #ffcc88;
+}
+
+
+.contentBlock{
+  
+  background-color: rgba(237, 229, 216, 0.8);
+  padding-top: 25px;
+  width: 45%;
+}
+
+/* -------Footer  Section-----------*/
+.footer-padding{
+  padding-bottom: 60px;
+  
+}
+.footer{
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  
+}
+.footer p{
+  margin-top: 25px;
+  font-size: 1.5rem;
+  
+  
+}
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "casamorenohotel",
+  "version": "1.0.0",
+  "description": "Hotel and Restaurant",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudulphNario/CasaMorenoHotel.git"
+  },
+  "author": "Rudulph Val Nario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudulphNario/CasaMorenoHotel/issues"
+  },
+  "homepage": "https://github.com/rudulphNario/CasaMorenoHotel#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongod": "^2.0.0",
+    "request": "^2.88.2"
+  }
+}
