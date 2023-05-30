@@ -18,6 +18,7 @@ color: white;
 
 /* -------Footer  Section-----------*/
 .footer-padding{
+  position: absolute;
   padding-bottom: 60px;
   
 }
