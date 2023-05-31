@@ -1,12 +1,29 @@
 <%-include("partials/header") %>
 
     <main>
+        <div class="container video-playback">
+            <div class="row">
+                <div class="col-lg-12">
+                    <video class="video-playback" loop autoplay muted>
+                        <source class="video-shadow" src="https://media.publit.io/file/h_720/G6BTRHVj.mp4" type="video/mp4">
+                        <source class="video-shadow" src="https://media.publit.io/file/h_720/G6BTRHVj.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="title-intro">
+                        <h1>Casa Moreno Hotel</h1>
+                        <p>"Experience unparalleled luxury and exceptional hospitality at Casa Moreno Hotel. Nestled in
+                            the
+                            heart of Claremont California, our hotel is the perfect destination for both leisure and
+                            business travelers seeking a memorable stay."</p>
+                    </div>
+                </div>
+                <hr class="dashed">
+            </div>
+        </div>
+
         <section class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <p>Experience unparalleled luxury and exceptional hospitality at Casa Moreno Hotel. Nestled in the
-                        heart of Claremont California, our hotel is the perfect destination for both leisure and
-                        business travelers seeking a memorable stay.</p>
                     <h5>Accommodation:</h5>
                     <p>Indulge in our exquisitely designed rooms and suites, where comfort meets elegance. Each of our
                         spacious accommodations is thoughtfully appointed with modern amenities and stylish furnishings
@@ -27,6 +44,9 @@
                         elegant event spaces offer the perfect setting for any occasion. With cutting-edge technology,
                         personalized service, and meticulous attention to detail, we guarantee a successful and
                         memorable event.</p>
+
+                </div>
+                <div class="col-lg-6">
                     <h5>Local Attractions:</h5>
                     <p>Claremont City in California is a vibrant destination filled with captivating attractions. From
                         historical landmarks and cultural treasures to bustling shopping districts and entertainment
@@ -41,17 +61,14 @@
                     <p>Ready to embark on a remarkable journey at [Hotel Name]? Book your stay now and let us provide
                         you with an extraordinary experience that will exceed your expectations.</p>
 
-                    <p>Come and discover the perfect blend of luxury, comfort, and impeccable service at Casa Moreno Hotel.
+                    <p>Come and discover the perfect blend of luxury, comfort, and impeccable service at Casa Moreno
+                        Hotel.
                         We look forward to welcoming you soon!</p>
                 </div>
-                <div class="col-lg-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, voluptatem?
-                    Impedit unde reprehenderit fugiat totam nisi cum labore quos iusto voluptate dolor autem
-                    consequuntur modi, quo quam hic pariatur deleniti?</div>
             </div>
 
         </section>
 
     </main>
-    </header>
-
+    <hr class="dashed">
     <%- include("partials/footer") %>
